@@ -27,7 +27,7 @@ john --mask='?a?a?a?a?a?a?a?a' --min-length=3 --max-length=8 --format='md5crypt-
 john --wordlist=diccionario.txt --rules=all --format=md5crypt-long dataset_X.txt
 ```
 
-This requires the file "john-local.conf" located at "/usr/share/john/john-local.conf" to hace rules like the following:
+This requires the file "john-local.conf" located at "/usr/share/john/john-local.conf" to have rules like the following:
 
 ```conf
 # Rules John-local.conf
